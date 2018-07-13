@@ -9,3 +9,6 @@ function destructivelyPrependDriver(){
  function destructivelyRemoveLastDriver(){
    drivers.splice(-1,1)
  }
+  function destructivelyRemoveLastDriver(){
+   drivers.splice(-1,1)
+  }
