@@ -15,5 +15,6 @@ function destructivelyPrependDriver(){
   
   function appendDriver(name){
     var clone = drivers.slice(0)
-    clone.push
+    clone.push(name)
+    return clone
   }
