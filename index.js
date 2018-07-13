@@ -10,5 +10,5 @@ function destructivelyPrependDriver(){
    drivers.splice(-1,1)
  }
   function destructivelyRemoveFirstDriver(){
-   drivers.shift
+   drivers.shift()
   }
