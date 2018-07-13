@@ -1,2 +1,3 @@
 // Write your solution here!
-const driver = 
+const driver = ["Milo", "Otis", "Garfield"];
+function
