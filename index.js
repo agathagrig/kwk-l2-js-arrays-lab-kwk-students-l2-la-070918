@@ -23,4 +23,6 @@ function destructivelyPrependDriver(){
     clone.unshift(name)
     return clone
   }
-  function remove
+  function removeLastDriver(){
+    
+  }
