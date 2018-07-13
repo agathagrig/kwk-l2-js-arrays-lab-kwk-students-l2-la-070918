@@ -24,5 +24,7 @@ function destructivelyPrependDriver(){
     return clone
   }
   function removeLastDriver(){
-    
+    var clone = drivers.slice(0)
+    clone.splice(-1,1)
+    return clone 
   }
