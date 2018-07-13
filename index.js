@@ -30,6 +30,6 @@ function destructivelyPrependDriver(){
   }
   function removeFirstDriver(){
     var clone = drivers.slice(0)
-    clone.unshift
+    clone.shift(0)
     return clone
   }
